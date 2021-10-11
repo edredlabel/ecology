@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Практическая</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="px-3 py-2 bg-dark text-white">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/"
+                        class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                        <img src="img/ecology.svg" alt="logo" width="65" height="65">
+                        Ecology TUIT
+                    </a>
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li>
+                            <a href="/" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                                </svg>
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="news.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                                    <path
+                                        d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                                </svg>
+                                Новости
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lectures.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    <path
+                                        d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                    <path
+                                        d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                </svg>
+                                Лекции
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tasks.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="currentColor" class="bi bi-list-task" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z" />
+                                    <path
+                                        d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z" />
+                                </svg>
+                                Задания
+                            </a>
+                        </li>
+                        <li>
+                            <a href="practics.html" class="nav-link text-white">
+                                <svg class="bi d-block mx-auto mb-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="currentColor" class="bi bi-file-earmark-code" viewBox="0 0 16 16">
+                                    <path
+                                        d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+                                    <path
+                                        d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z" />
+                                </svg>
+                                Практика
+                            </a>
+                        </li>
+                        <!-- <div class="dropdown">
+                            <svg class="bi d-block mx-auto mb-1 mt-2" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="currentColor" class="bi bi-file-earmark-code" viewBox="0 0 16 16">
+                                    <path
+                                        d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+                                    <path
+                                        d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708z" />
+                                </svg>
+                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Практика
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">1 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">2 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">3 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">4 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">5 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">6 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">7 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">8 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">9 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">10 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">11 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">12 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">13 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">14 Задание</a></li>
+                                <li><a class="dropdown-item" href="#">15 Задание</a></li>
+                            </ul>
+                        </div> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <form action="" id="form">
+            <div class="row">
+                <div class="col-md-4">
+                    Mco: <input class="M_co" type="text" name="" id="" placeholder="Введите значение Mco"><br>
+                    Mno2: <input class="M_no2" type="text" placeholder="Введите значение Mno2"> <br>
+                    Mso2: <input class="M_so2" type="text" placeholder="Введите значение Mso2"> <br>
+                    Mпыль: <input class="M_dust" type="text" placeholder="Введите значение Mпыль"> <br>
+                </div>
+
+                <div class="col-md-4">
+                    N: <input class="N" type="text" placeholder="Введите значение N"><br>
+                    H: <input class="H" type="text" placeholder="Введите значение H"><br>
+                    D: <input class="D" type="text" placeholder="Введите значение D"><br>
+                    W: <input class="W" type="text" placeholder="Введите значение W"><br>
+                    
+                </div>
+
+                <div class="col-md-4">
+                    Tr: <input class="Tr" type="text" placeholder="Введите значение Tr"><br>
+                    Ta: <input class="Ta" type="text" placeholder="Введите значение Ta"><br>
+                    A:  <input class="A" type="text" placeholder="Введите значение A"><br>
+                </div>
+            </div>  
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-4 offset-1">
+                    1) Ототрафикационный коэфицент: <input class="one" type="text"> <br>
+                    2) Выброс газа от устья источника: <input class="two" type="text"> <br>
+                    3) Холодные выбросы: <br> <input class="three" type="text"><br>
+                    4) Объем Газо-воздушной смеси: <input class="four" type="text"><br>
+                    5) Величина максимальной приземной концентрации вредных веществ от холодных промышленных выбросов из
+                    одиночного источника: <br>
+                    <b>C_mco:</b> <input class="fiveOne" type="text"><br>
+                    <b>C_no2:</b> <input class="fiveTwo" type="text"><br>
+                    <b>C_so2:</b> <input class="fiveThree" type="text"><br>
+                    <b>C_пыль:</b> <input class="fiveFour" type="text"><br>
+                    6)Совокупный объем газо-воздушной смеси выбрасываемой из одного источника: <input class="six"
+                        type="text"><br>
+                       
+                </div>
+                <div class="col-md-6 offset-1">
+                    7) ПДВ: <br>
+                    <b>ПДВ_со:</b> <input class="sevenOne" type="text"><br>
+                    <b>ПДВ_no2:</b> <input class="sevenTwo" type="text"><br>
+                    <b>ПДВ_so2:</b> <input class="sevenThree" type="text"><br>
+                    <b>ПДВ_пыль:</b> <input class="sevenFour" type="text"><br>
+                    8) Самая высокая концентрация вредных веществ в приземной поверхности при высоте одного «холодного»
+                    источника: <br>
+                    <b>H_co:</b> <input class="eightOne" type="text"><br>
+                    <b>H_no2:</b> <input class="eightTwo" type="text"><br>
+                    <b>H_so2:</b> <input class="eightThree" type="text"><br>
+                    <b>H_пыль:</b> <input class="eightFour" type="text"><br>
+                    9) Самая высокая концентрация вредных веществ в приземной поверхности, для «горячих выбросов»:<br>
+                    <b>ПДВ_со:</b><input class="nineOne" type="text"><br>
+                    <b>ПДВ_no2:</b><input class="nineTwo" type="text"><br>
+                    <b>ПДВ_so2:</b><input class="nineThree" type="text"><br>
+                    <b>ПДВ_пыль:</b><input class="nineFour" type="text"><br>
+                </div>
+            </div>  
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

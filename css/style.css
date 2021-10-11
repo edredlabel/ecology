@@ -1,0 +1,60 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* ---------------- index --------------------------- */
+
+
+.preview {
+    position: relative;
+    background:  url("../img/ecology-main.jpg")  no-repeat center / cover;
+    height: calc(100vh - 87px);
+    z-index: 1;
+}
+
+.preview::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0/50%);
+    z-index: -1;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.preview-title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.article-row {
+    padding: 10px;
+    row-gap: 30px;
+}
+
+.article {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.article p {
+    min-height: 135px;
+    overflow: hidden;
+}
+
+input {
+    margin-top: 10px;
+}
+
