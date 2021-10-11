@@ -110,5 +110,3 @@ form.addEventListener('input', function(){
     nineThree.value = PDV__so2;
     nineFour.value = PDV__dust;
 });  
-
-
